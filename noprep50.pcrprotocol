@@ -1,0 +1,51 @@
+{
+    "filling": {
+        "acceleration": 8000,
+        "deceleration": 1000,
+        "reverse": false,
+        "sealerTemperature": 60,
+        "sealingTime": 2,
+        "time": 5,
+        "velocity": 3000
+    },
+    "metering": {
+        "acceleration": 8000,
+        "deceleration": 8000,
+        "evacuationTime": 5,
+        "evacuationVelocity": 1000,
+        "meteringTime": 5,
+        "meteringVelocity": 5
+    },
+    "resuspension": {
+        "acceleration": 8000,
+        "deceleration": 8000,
+        "mixing": {
+            "acceleration": 8000,
+            "deceleration": 8000,
+            "interval": 1,
+            "numOfCycles": 10,
+            "velocity": 1000
+        },
+        "time": 5,
+        "velocity": 1000
+    },
+    "rt": {
+        "activationTemperature": 50,
+        "activationTime": 5,
+        "rtEnable": false,
+        "rtTemperature": 50,
+        "rtTime": 5
+    },
+    "samplePrep": {
+        "enable": false,
+        "heatingDuration": 5,
+        "pwmFreq": 100000
+    },
+    "thermocycling": {
+        "annealingTemperature": 50,
+        "annealingTime": 2,
+        "denaturationTemperature": 50,
+        "denaturationTime": 2,
+        "numOfCycles": 50
+    }
+}
